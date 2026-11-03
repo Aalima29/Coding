@@ -100,20 +100,66 @@
 #     print("False")
 
 # Two Sum
-a=[2,7,9,11]
-target=9
-seen=set()
-for i in range(len(a)-1):
-    curr_num=a[i]
-    req_num=target-curr_num
+# a=[2,7,9,11]
+# target=9
+# seen=set()
+# for i in range(len(a)-1):
+#     curr_num=a[i]
+#     req_num=target-curr_num
 
-    if req_num in seen:
-        print("Found pair")
-    else:
-        seen.add(curr_num)
+#     if req_num in seen:
+#         print("Found pair")
+#     else:
+#         seen.add(curr_num)
+
+# consequtive number
+# a = [100, 4, 200, 1, 3, 2]
+# seen=set(a)
+# largest=0
+# for i in seen:
+#     if i-1 not in seen:
+#         curr_num=seen
+#         count=1
+
+#         while(a[i-1]):
+#             curr_num+=1
+#             cnt+=1
 
 
 
+# a={10,20,30,40,10,20,30,40}
+# seen=set()
+# for i in a:
+#     if i not in seen:
+#         print("DUPLICATE",i)
+# else:
+#         print(seen.add(i))
+
+
+
+
+# A = {1, 2, 3, 4, 5}
+# B = {4, 5, 6, 7, 8}
+# print(A.intersection(B))
+
+# a = [1, 2, 3, 5]
+# seen=set(a)
+# for i in range(1,len(a)+1):
+#     if i not in seen:
+#         print("Missing Number is",i)
+# print(seen)
+        
+
+
+import pandas as pd
+pd
+    
+
+
+
+
+
+   
 
       
        

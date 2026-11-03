@@ -185,10 +185,144 @@
 
 
 # Prime number
-def isPrime(n):
-    while(n>0):
-        if(n%2!=0):
-            return True
-        else:
-            return False
-print(isPrime(10))
+# def isPrime(n):
+#     while(n>0):
+#         if(n%2!=0):
+#             return True
+#         else:
+#             return False
+# print(isPrime(10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def fact(n):
+#     fac=1
+#     for i in range(1,n+1):
+        
+#         fac=fac*i
+#     print(fac)
+# fact(5)
+
+
+# countdigit
+
+# def countNum(n):
+#     cnt=0
+#     while n>0:
+#         cnt=cnt+1
+#         n=n//10
+#     print(cnt)
+# countNum(12345)
+
+
+# Rev a number
+# def reverseNum(n):
+#     while(n>0):
+
+#      rev=0
+#      digit=n%10
+#      rev=rev*10+digit
+#      n=n//10
+#      print(rev)
+# reverseNum(12345)
+
+# check palindrome
+# def isPalin(n):
+#     orignal=n
+#     rev=0
+#     while(n>0):
+        
+#         digit=n%10
+#         rev=rev*10+digit
+#         n=n//10
+#         print(rev)
+#     if(rev==orignal):
+#         return True
+#     else:
+#         return False
+# print(isPalin(121))
+
+
+# Prime number
+# def isPrime(n):
+#     if(n%2!=0):
+#         return True
+#     else:
+#         return False
+# print(isPrime(10))
+
+# List
+
+
+# a=[2,-4,6,-7,3,68,-72,90,-1]
+# for i in a:
+#     if i<0:
+#         continue
+#     else:
+#         print(i)
+
+# a=[2,4,6,8,10,12,14,18,20]
+# summ=0
+# for i in a:
+#     summ=summ+i
+# print(summ)
+# for i in a:
+#     avg=summ/len(a)
+#     if (i>avg):
+#       print(i)
+
+
+# a=[1,2,3,4,5,6,7,8,9,10]
+# even=[]
+# odd=[]
+# for i in a:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(even)
+# print(odd)
+
+
+# a=[1,0,2,0,3,0,4,0,5,0,6]
+
+# rem=[]
+# for i in a:
+#     if i !=0:
+#         rem.append(i)
+# for i in a:
+#     cnt=0
+#     if i ==0:
+#         cnt=cnt+1
+#         rem.append(i)
+# print(rem)
+
+a=[10,20,50,40]
+for i in range(1,len(a)-1):
+    if a[i]<a[i+1]:
+        print("List is sorted")
+        
+else:
+        print("Not Sorted")
+
+
+
+
+
+
+
+
+
+
+
+

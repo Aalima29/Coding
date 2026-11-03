@@ -170,27 +170,48 @@
 #         print("Missing number is",i)
 
 # check anagrams
-s1 = "listen"
-s2 = "silend"
-seen={}
-if len(s1)!=len(s2):
-    print("False")
-for ch in s1:
-    if ch not in seen:
-        seen[ch]=1
-    else:
-        seen[ch]+=1
+# s1 = "listen"
+# s2 = "silend"
+# seen={}
+# if len(s1)!=len(s2):
+#     print("False")
+# for ch in s1:
+#     if ch not in seen:
+#         seen[ch]=1
+#     else:
+#         seen[ch]+=1
 
-for ch in s2:
-    if ch not in seen:
-        print("False")
-        break
-    else:
-        seen[ch]-=1
-for ch in seen:
-    if seen[ch]!=0:
-        print ("false")
-print("true")
+# for ch in s2:
+#     if ch not in seen:
+#         print("False")
+#         break
+#     else:
+#         seen[ch]-=1
+# for ch in seen:
+#     if seen[ch]!=0:
+#         print ("false")
+# print("true")
+
+
+# Try excpet
+# try:
+#     num=int(input("Enter a number to print the table "))
+
+#     for i in range(1,11):
+    
+    
+#         print(num,"X",i,"=",num*i)
+# except Exception as e:
+#         print(e)
+# print("hi myself Zoya")
+
+# custom error
+a=input("Enter Any Value B/w 5 and 9 ")
+if(a=="Quit"):
+    print("PAss")
+if(a<5 or a>9):
+    raise ValueError("Enter Value between 5 and 9")
+
 
 
 

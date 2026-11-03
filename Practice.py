@@ -190,13 +190,6 @@
 #         print("Sorted")
 
 # Check The Common Element
-a=[1,2,4,6]
-b=[1,2,7,8]
-
-for i in a:
-    
-       if i in b:
-          print(i)
 
 
 
