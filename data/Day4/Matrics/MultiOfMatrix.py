@@ -1,0 +1,23 @@
+A = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+B = [
+    [7, 8],
+    [9, 10],
+    [11, 12]]
+
+result=[]
+for i in range(len(A)):
+    row=[]
+    for j in range(len(B[0])):
+        sum=0
+
+        for k in range(len(B)):
+            sum+=A[i][k]*B[k][j]
+        row.append(sum)
+    result.append(row)
+for i in result:
+    print(result)
+
